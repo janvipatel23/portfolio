@@ -1,0 +1,92 @@
+/* #header-section {
+    display: flex;
+    align-items: flex-end;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+header {
+  min-height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 6%,
+    rgb(74 45 202 / 73%) 27%,
+    rgb(54 57 57 / 33%) 41%
+  );
+}
+
+section {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+#navbar-example2 {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.linkedin-review {
+  font-style: italic;
+  padding: 20px;
+}
+
+.linkedin-review::before {
+  content: '"';
+  font-size: 3em;
+}
+
+.linkedin-review::after {
+  content: '"';
+}
+
+.linkedin-reviewer {
+  text-align: center;
+  font-weight: bold;
+  opacity: 0.5;
+  font-style: italic;
+}
+
+.linkedin-reviewer::before {
+  content: "~";
+}
+
+.life-item {
+  margin: 2rem;
+}
+
+#summary-para::first-letter {
+  font-size: 300%;
+  font-weight: bolder;
+}
+
+#summary-para {
+  font-style: italic;
+}
+
+.list-group-item {
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+}
+
+.skill-tag {
+  margin: 1.5em;
+  padding: 15px;
+}
+
+.skill-tag:hover {
+  opacity: 0.5;
+}
+
+.project-card {
+  margin: 2em;
+  box-shadow: -27px 35px 28px -12px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  height: 50vh;
+}
